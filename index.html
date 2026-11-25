@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en" xmlns:height="http://www.w3.org/1999/xhtml">
+<html lang="cz" xmlns:height="http://www.w3.org/1999/xhtml">
 <head>
     <meta charset="UTF-8">
     <title>ICT-web</title>
@@ -91,7 +91,7 @@
             <div class="obsah">
                 <div class="hit">
                     <p>Jméno a přijmení *</p>
-                    <input type="text">
+                    <input id="jmeno" type="text">
                 </div>
                 <div class="hit">
                     <p>E-mail *</p>
@@ -103,9 +103,13 @@
                 </div>
                 <div class="hit">
                     <p>Heslo *</p>
-                    <input type="password">
+                    <input id="heslo" type="password">
                 </div>
-                <input type="submit" value="Odeslat">
+                <div class="tlacitka">
+                    <button class="tlacitko" id="nacist" type="button">Načíst</button>
+                    <a class="tlacitko"
+                   href="https://www.naturephoto.cz/blog/akce/workshops/168/kostarika-pro-fotografy-12-2026">Odeslat</a>
+                </div>
             </div>
         </div>
         <div class="lol">
@@ -121,5 +125,6 @@
 <footer>
     <p>© 2026 Oliver Prosický = web pro ICT</p>
 </footer>
+<script src="script.js"></script>
 </body>
 </html>
