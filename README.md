@@ -7,6 +7,7 @@ Jednoduchá webová stránka o fotografickém workshopu v Kostarice. Obsahuje in
 <p align="center">
   <a href="https://ultrahrac.github.io/ICTwebside/"><img src="https://img.shields.io/badge/Otev%C5%99%C3%ADt_web-Nav%C5%A1t%C3%ADvit-2e8b57?style=for-the-badge" alt="Navštívit web"></a>
 </p>
+
 ## Náhled
 
 ![Opice v Kostarice](Img/opice.jpg)
